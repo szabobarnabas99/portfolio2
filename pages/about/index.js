@@ -130,7 +130,7 @@ const About = () => {
                         <div className="flex flex-1 xl:gap-x-6">
                             <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                                    <div>1</div>
+                                    <div>1 +</div>
                                 </div>
                                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                                     Years of experience
@@ -138,7 +138,7 @@ const About = () => {
                             </div>
                             <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                                    <div>1</div>
+                                    <div>10 +</div>
                                 </div>
                                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] ">
                                     Satisfied clients
@@ -146,7 +146,7 @@ const About = () => {
                             </div>
                             <div className="relative flex-1 ">
                                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                                    <div>1</div>
+                                    <div>30 +</div>
                                 </div>
                                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                                     Finished projects

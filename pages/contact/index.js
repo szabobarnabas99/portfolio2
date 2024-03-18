@@ -27,7 +27,7 @@ export const Contact = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm("service_734nyii", "template_t8uok0c", form.current, {
+            .sendForm("service_734nyi", "template_t8uok0c", form.current, {
                 publicKey: "xtck8bH5eNAwOG5ta",
             })
             .then(
@@ -51,7 +51,7 @@ export const Contact = () => {
                         initial="hidden"
                         animate="show"
                         exit="hidden"
-                        className="h2 text-center mb-12"
+                        className="h2 text-center mb-12 max-sm:mb-6"
                     >
                         Let&apos;s <span className="text-accent">connect.</span>
                     </motion.h2>
