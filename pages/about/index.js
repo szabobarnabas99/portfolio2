@@ -81,6 +81,7 @@ const aboutData = [
 
 import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
+import Image from "next/image";
 
 const About = () => {
     const [index, setIndex] = useState(0);
@@ -95,7 +96,15 @@ const About = () => {
                 exit="hidden"
                 className="w-full h-full max-w-[737px] max-h-[678px] absolute -left-[370px] lg:bottom-0 lg:right-[8%]"
             >
-                <Avatar />
+                <div className="hidden xl:flex xl:max-w-none">
+                    <Image
+                        src={"/avatart.png"}
+                        width={737}
+                        height={678}
+                        alt=""
+                        className="translate-z-0 w-full h-full"
+                    />
+                </div>
             </motion.div>
 
             <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 max-sm:pb-80">

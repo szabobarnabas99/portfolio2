@@ -81,12 +81,12 @@ export const Contact = () => {
                         <input
                             type="text"
                             placeholder="subject"
-                            className="input"
+                            className="input normal-case"
                             name="subject"
                         />
                         <textarea
                             placeholder="message"
-                            className="textarea"
+                            className="textarea normal-case"
                             name="message"
                         ></textarea>
                         <button
