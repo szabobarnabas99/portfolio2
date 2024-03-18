@@ -8,14 +8,13 @@ const Header = () => {
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-y-2 py-2">
                     <Link href={"/"}>
-                        <Image
-                            src={"/brnbs.svg"}
-                            width={300}
-                            height={300}
-                            alt=""
+                        <h1
                             priority={true}
-                            className="text-white"
-                        />
+                            className="text-white text-[1.5rem]"
+                        >
+                            szabo <span className="text-accent">.</span>{" "}
+                            barnabas
+                        </h1>
                     </Link>
                     <Socials />
                 </div>
